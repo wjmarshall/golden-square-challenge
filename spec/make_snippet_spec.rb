@@ -1,6 +1,6 @@
 require "make_snippet"
 
-RSpec.describe "make_snippet" do
+RSpec.describe "#make_snippet" do
   context "when the string is longer than 5 words" do
     it "should return the first 5 words + '...'" do
       result = make_snippet("Today I learned about test driven development")
