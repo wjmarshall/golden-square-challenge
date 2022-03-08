@@ -1,10 +1,10 @@
 def make_snippet(string)
-  words = string.split(" ")
+  words = string.split
   if words.length <= 5
-    return string
+    string
   else
     first_five = words[0..4]
-    return first_five.join(" ") + "..."
+    first_five.join(" ") + "..."
   end
 end
 
