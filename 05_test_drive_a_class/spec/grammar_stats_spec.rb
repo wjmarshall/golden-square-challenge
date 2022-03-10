@@ -28,7 +28,3 @@ RSpec.describe GrammarStats do
     expect(grammar_stats.percentage_good).to eq(50)
   end
 end
-
-
-
-
