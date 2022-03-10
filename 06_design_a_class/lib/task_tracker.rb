@@ -12,4 +12,9 @@ class TaskTracker
     fail "No tasks to list" if @tasks.empty?
     @tasks
   end
+
+  def mark_as_complete(task)
+    fail "Task not found" if !@tasks.include?(task)
+    @tasks.delete(task)
+  end
 end
