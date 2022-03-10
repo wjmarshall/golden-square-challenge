@@ -1,6 +1,4 @@
 class DiaryEntry
-  attr_accessor :unread
-
   def initialize(title, contents) # title, contents are strings
     @title = title
     @contents = contents
@@ -38,7 +36,6 @@ class DiaryEntry
     @unread = @contents.split if @unread.empty?    
     reading_chunk.join(" ")
   end
-
 end
 
     # `wpm` is an integer representing the number

@@ -1,6 +1,4 @@
 class GrammarStats
-  attr_accessor :checked, :passed
-
   def initialize
     @checked = 0.0
     @passed = 0.0
