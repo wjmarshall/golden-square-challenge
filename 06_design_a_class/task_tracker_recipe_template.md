@@ -33,7 +33,7 @@ class TaskTracker
   end
 
   def mark_as_complete(task)
-  # Throws an exception if task isn't on the list
+    # Throws an exception if task isn't on the list
     # Otherwise, removes task from todo-list
   end
 end
